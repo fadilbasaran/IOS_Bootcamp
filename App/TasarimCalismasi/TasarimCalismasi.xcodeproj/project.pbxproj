@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B590C5C2B06D7010035E3BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B590C5B2B06D7010035E3BC /* AppDelegate.swift */; };
-		8B590C5E2B06D7010035E3BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B590C5D2B06D7010035E3BC /* SceneDelegate.swift */; };
-		8B590C602B06D7010035E3BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B590C5F2B06D7010035E3BC /* ViewController.swift */; };
-		8B590C632B06D7010035E3BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C612B06D7010035E3BC /* Main.storyboard */; };
-		8B590C652B06D7020035E3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C642B06D7020035E3BC /* Assets.xcassets */; };
-		8B590C682B06D7020035E3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C662B06D7020035E3BC /* LaunchScreen.storyboard */; };
+		8B590C7F2B06DA480035E3BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B590C7E2B06DA480035E3BC /* AppDelegate.swift */; };
+		8B590C812B06DA480035E3BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B590C802B06DA480035E3BC /* SceneDelegate.swift */; };
+		8B590C832B06DA480035E3BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B590C822B06DA480035E3BC /* ViewController.swift */; };
+		8B590C862B06DA480035E3BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C842B06DA480035E3BC /* Main.storyboard */; };
+		8B590C882B06DA490035E3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C872B06DA490035E3BC /* Assets.xcassets */; };
+		8B590C8B2B06DA490035E3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C892B06DA490035E3BC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B590C582B06D7010035E3BC /* TasarimCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasarimCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B590C5B2B06D7010035E3BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B590C5D2B06D7010035E3BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B590C5F2B06D7010035E3BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B590C622B06D7010035E3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B590C642B06D7020035E3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B590C672B06D7020035E3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8B590C692B06D7020035E3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B590C7B2B06DA480035E3BC /* TasarimCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasarimCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B590C7E2B06DA480035E3BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B590C802B06DA480035E3BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8B590C822B06DA480035E3BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B590C852B06DA480035E3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B590C872B06DA490035E3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B590C8A2B06DA490035E3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B590C8C2B06DA490035E3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B590C552B06D7010035E3BC /* Frameworks */ = {
+		8B590C782B06DA480035E3BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,57 +37,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B590C4F2B06D7010035E3BC = {
+		8B590C722B06DA480035E3BC = {
 			isa = PBXGroup;
 			children = (
-				8B590C5A2B06D7010035E3BC /* TasarimCalismasi */,
-				8B590C592B06D7010035E3BC /* Products */,
+				8B590C7D2B06DA480035E3BC /* TasarimCalismasi */,
+				8B590C7C2B06DA480035E3BC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8B590C592B06D7010035E3BC /* Products */ = {
+		8B590C7C2B06DA480035E3BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B590C582B06D7010035E3BC /* TasarimCalismasi.app */,
+				8B590C7B2B06DA480035E3BC /* TasarimCalismasi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B590C5A2B06D7010035E3BC /* TasarimCalismasi */ = {
+		8B590C7D2B06DA480035E3BC /* TasarimCalismasi */ = {
 			isa = PBXGroup;
 			children = (
-				8B590C712B06D7820035E3BC /* Controllers */,
-				8B590C702B06D77A0035E3BC /* Views */,
-				8B590C6F2B06D7160035E3BC /* Supporting Files */,
+				8B590C942B06DA9F0035E3BC /* Controllers */,
+				8B590C932B06DA960035E3BC /* Views */,
+				8B590C922B06DA4E0035E3BC /* Supporting Files */,
 			);
 			path = TasarimCalismasi;
 			sourceTree = "<group>";
 		};
-		8B590C6F2B06D7160035E3BC /* Supporting Files */ = {
+		8B590C922B06DA4E0035E3BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B590C5B2B06D7010035E3BC /* AppDelegate.swift */,
-				8B590C5D2B06D7010035E3BC /* SceneDelegate.swift */,
-				8B590C642B06D7020035E3BC /* Assets.xcassets */,
-				8B590C662B06D7020035E3BC /* LaunchScreen.storyboard */,
-				8B590C692B06D7020035E3BC /* Info.plist */,
+				8B590C7E2B06DA480035E3BC /* AppDelegate.swift */,
+				8B590C802B06DA480035E3BC /* SceneDelegate.swift */,
+				8B590C872B06DA490035E3BC /* Assets.xcassets */,
+				8B590C892B06DA490035E3BC /* LaunchScreen.storyboard */,
+				8B590C8C2B06DA490035E3BC /* Info.plist */,
 			);
-			name = "Supporting Files";
-			path = "Supporting Fİies";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8B590C702B06D77A0035E3BC /* Views */ = {
+		8B590C932B06DA960035E3BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8B590C612B06D7010035E3BC /* Main.storyboard */,
+				8B590C842B06DA480035E3BC /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		8B590C712B06D7820035E3BC /* Controllers */ = {
+		8B590C942B06DA9F0035E3BC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B590C5F2B06D7010035E3BC /* ViewController.swift */,
+				8B590C822B06DA480035E3BC /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -95,13 +94,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B590C572B06D7010035E3BC /* TasarimCalismasi */ = {
+		8B590C7A2B06DA480035E3BC /* TasarimCalismasi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B590C6C2B06D7020035E3BC /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */;
+			buildConfigurationList = 8B590C8F2B06DA490035E3BC /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */;
 			buildPhases = (
-				8B590C542B06D7010035E3BC /* Sources */,
-				8B590C552B06D7010035E3BC /* Frameworks */,
-				8B590C562B06D7010035E3BC /* Resources */,
+				8B590C772B06DA480035E3BC /* Sources */,
+				8B590C782B06DA480035E3BC /* Frameworks */,
+				8B590C792B06DA480035E3BC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -109,25 +108,25 @@
 			);
 			name = TasarimCalismasi;
 			productName = TasarimCalismasi;
-			productReference = 8B590C582B06D7010035E3BC /* TasarimCalismasi.app */;
+			productReference = 8B590C7B2B06DA480035E3BC /* TasarimCalismasi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8B590C502B06D7010035E3BC /* Project object */ = {
+		8B590C732B06DA480035E3BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					8B590C572B06D7010035E3BC = {
+					8B590C7A2B06DA480035E3BC = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 8B590C532B06D7010035E3BC /* Build configuration list for PBXProject "TasarimCalismasi" */;
+			buildConfigurationList = 8B590C762B06DA480035E3BC /* Build configuration list for PBXProject "TasarimCalismasi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,55 +134,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 8B590C4F2B06D7010035E3BC;
-			productRefGroup = 8B590C592B06D7010035E3BC /* Products */;
+			mainGroup = 8B590C722B06DA480035E3BC;
+			productRefGroup = 8B590C7C2B06DA480035E3BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B590C572B06D7010035E3BC /* TasarimCalismasi */,
+				8B590C7A2B06DA480035E3BC /* TasarimCalismasi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B590C562B06D7010035E3BC /* Resources */ = {
+		8B590C792B06DA480035E3BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B590C682B06D7020035E3BC /* LaunchScreen.storyboard in Resources */,
-				8B590C652B06D7020035E3BC /* Assets.xcassets in Resources */,
-				8B590C632B06D7010035E3BC /* Main.storyboard in Resources */,
+				8B590C8B2B06DA490035E3BC /* LaunchScreen.storyboard in Resources */,
+				8B590C882B06DA490035E3BC /* Assets.xcassets in Resources */,
+				8B590C862B06DA480035E3BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8B590C542B06D7010035E3BC /* Sources */ = {
+		8B590C772B06DA480035E3BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B590C602B06D7010035E3BC /* ViewController.swift in Sources */,
-				8B590C5C2B06D7010035E3BC /* AppDelegate.swift in Sources */,
-				8B590C5E2B06D7010035E3BC /* SceneDelegate.swift in Sources */,
+				8B590C832B06DA480035E3BC /* ViewController.swift in Sources */,
+				8B590C7F2B06DA480035E3BC /* AppDelegate.swift in Sources */,
+				8B590C812B06DA480035E3BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8B590C612B06D7010035E3BC /* Main.storyboard */ = {
+		8B590C842B06DA480035E3BC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8B590C622B06D7010035E3BC /* Base */,
+				8B590C852B06DA480035E3BC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8B590C662B06D7020035E3BC /* LaunchScreen.storyboard */ = {
+		8B590C892B06DA490035E3BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8B590C672B06D7020035E3BC /* Base */,
+				8B590C8A2B06DA490035E3BC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -191,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8B590C6A2B06D7020035E3BC /* Debug */ = {
+		8B590C8D2B06DA490035E3BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		8B590C6B2B06D7020035E3BC /* Release */ = {
+		8B590C8E2B06DA490035E3BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,7 +304,7 @@
 			};
 			name = Release;
 		};
-		8B590C6D2B06D7020035E3BC /* Debug */ = {
+		8B590C902B06DA490035E3BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Supporting Files/TasarimCalismasi/Info.plist";
+				INFOPLIST_FILE = "TasarimCalismasi/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +331,7 @@
 			};
 			name = Debug;
 		};
-		8B590C6E2B06D7020035E3BC /* Release */ = {
+		8B590C912B06DA490035E3BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -340,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Supporting Files/TasarimCalismasi/Info.plist";
+				INFOPLIST_FILE = "TasarimCalismasi/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -362,25 +361,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B590C532B06D7010035E3BC /* Build configuration list for PBXProject "TasarimCalismasi" */ = {
+		8B590C762B06DA480035E3BC /* Build configuration list for PBXProject "TasarimCalismasi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B590C6A2B06D7020035E3BC /* Debug */,
-				8B590C6B2B06D7020035E3BC /* Release */,
+				8B590C8D2B06DA490035E3BC /* Debug */,
+				8B590C8E2B06DA490035E3BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B590C6C2B06D7020035E3BC /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */ = {
+		8B590C8F2B06DA490035E3BC /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B590C6D2B06D7020035E3BC /* Debug */,
-				8B590C6E2B06D7020035E3BC /* Release */,
+				8B590C902B06DA490035E3BC /* Debug */,
+				8B590C912B06DA490035E3BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8B590C502B06D7010035E3BC /* Project object */;
+	rootObject = 8B590C732B06DA480035E3BC /* Project object */;
 }
