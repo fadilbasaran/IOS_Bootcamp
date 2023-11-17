@@ -13,6 +13,7 @@
 		8B590C862B06DA480035E3BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C842B06DA480035E3BC /* Main.storyboard */; };
 		8B590C882B06DA490035E3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C872B06DA490035E3BC /* Assets.xcassets */; };
 		8B590C8B2B06DA490035E3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C892B06DA490035E3BC /* LaunchScreen.storyboard */; };
+		8B590C972B07DDE90035E3BC /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B590C962B07DDE90035E3BC /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		8B590C872B06DA490035E3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B590C8A2B06DA490035E3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B590C8C2B06DA490035E3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B590C962B07DDE90035E3BC /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		8B590C982B0813D30035E3BC /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		8B590C992B0813D30035E3BC /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		8B590C7D2B06DA480035E3BC /* TasarimCalismasi */ = {
 			isa = PBXGroup;
 			children = (
+				8B590C952B07DDC30035E3BC /* Fonts */,
 				8B590C942B06DA9F0035E3BC /* Controllers */,
 				8B590C932B06DA960035E3BC /* Views */,
 				8B590C922B06DA4E0035E3BC /* Supporting Files */,
@@ -89,6 +94,14 @@
 				8B590C822B06DA480035E3BC /* ViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B590C952B07DDC30035E3BC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B590C962B07DDE90035E3BC /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +146,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 8B590C722B06DA480035E3BC;
 			productRefGroup = 8B590C7C2B06DA480035E3BC /* Products */;
@@ -150,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B590C8B2B06DA490035E3BC /* LaunchScreen.storyboard in Resources */,
+				8B590C972B07DDE90035E3BC /* Pacifico-Regular.ttf in Resources */,
 				8B590C882B06DA490035E3BC /* Assets.xcassets in Resources */,
 				8B590C862B06DA480035E3BC /* Main.storyboard in Resources */,
 			);
@@ -175,6 +190,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B590C852B06DA480035E3BC /* Base */,
+				8B590C982B0813D30035E3BC /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -183,6 +199,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B590C8A2B06DA490035E3BC /* Base */,
+				8B590C992B0813D30035E3BC /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -194,6 +211,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -254,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
