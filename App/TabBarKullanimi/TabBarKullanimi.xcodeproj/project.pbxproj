@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8B6F20B62B0ECFB2002B3ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F20B52B0ECFB2002B3ACE /* AppDelegate.swift */; };
 		8B6F20B82B0ECFB2002B3ACE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F20B72B0ECFB2002B3ACE /* SceneDelegate.swift */; };
-		8B6F20BA2B0ECFB2002B3ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F20B92B0ECFB2002B3ACE /* ViewController.swift */; };
+		8B6F20BA2B0ECFB2002B3ACE /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F20B92B0ECFB2002B3ACE /* AnasayfaVC.swift */; };
 		8B6F20BD2B0ECFB2002B3ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F20BB2B0ECFB2002B3ACE /* Main.storyboard */; };
 		8B6F20BF2B0ECFB3002B3ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F20BE2B0ECFB3002B3ACE /* Assets.xcassets */; };
 		8B6F20C22B0ECFB3002B3ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F20C02B0ECFB3002B3ACE /* LaunchScreen.storyboard */; };
+		8B6F20CD2B0ED136002B3ACE /* AyarlarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F20CC2B0ED136002B3ACE /* AyarlarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B6F20B22B0ECFB2002B3ACE /* TabBarKullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarKullanimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6F20B52B0ECFB2002B3ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B6F20B72B0ECFB2002B3ACE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B6F20B92B0ECFB2002B3ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B6F20B92B0ECFB2002B3ACE /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
 		8B6F20BC2B0ECFB2002B3ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B6F20BE2B0ECFB3002B3ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B6F20C12B0ECFB3002B3ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B6F20C32B0ECFB3002B3ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6F20CC2B0ED136002B3ACE /* AyarlarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,8 @@
 		8B6F20CB2B0ED025002B3ACE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B6F20B92B0ECFB2002B3ACE /* ViewController.swift */,
+				8B6F20B92B0ECFB2002B3ACE /* AnasayfaVC.swift */,
+				8B6F20CC2B0ED136002B3ACE /* AyarlarVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -162,9 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B6F20BA2B0ECFB2002B3ACE /* ViewController.swift in Sources */,
+				8B6F20BA2B0ECFB2002B3ACE /* AnasayfaVC.swift in Sources */,
 				8B6F20B62B0ECFB2002B3ACE /* AppDelegate.swift in Sources */,
 				8B6F20B82B0ECFB2002B3ACE /* SceneDelegate.swift in Sources */,
+				8B6F20CD2B0ED136002B3ACE /* AyarlarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TabBarKullanimi/Info.plist;
+				INFOPLIST_FILE = "TabBarKullanimi/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -339,7 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TabBarKullanimi/Info.plist;
+				INFOPLIST_FILE = "TabBarKullanimi/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
