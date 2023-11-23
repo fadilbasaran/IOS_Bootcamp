@@ -56,15 +56,39 @@
 		8B6F20B42B0ECFB2002B3ACE /* TabBarKullanimi */ = {
 			isa = PBXGroup;
 			children = (
+				8B6F20CB2B0ED025002B3ACE /* Controllers */,
+				8B6F20CA2B0ED01E002B3ACE /* Views */,
+				8B6F20C92B0ED000002B3ACE /* Supporting Files */,
+			);
+			path = TabBarKullanimi;
+			sourceTree = "<group>";
+		};
+		8B6F20C92B0ED000002B3ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				8B6F20B52B0ECFB2002B3ACE /* AppDelegate.swift */,
 				8B6F20B72B0ECFB2002B3ACE /* SceneDelegate.swift */,
-				8B6F20B92B0ECFB2002B3ACE /* ViewController.swift */,
-				8B6F20BB2B0ECFB2002B3ACE /* Main.storyboard */,
 				8B6F20BE2B0ECFB3002B3ACE /* Assets.xcassets */,
 				8B6F20C02B0ECFB3002B3ACE /* LaunchScreen.storyboard */,
 				8B6F20C32B0ECFB3002B3ACE /* Info.plist */,
 			);
-			path = TabBarKullanimi;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B6F20CA2B0ED01E002B3ACE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F20BB2B0ECFB2002B3ACE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B6F20CB2B0ED025002B3ACE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F20B92B0ECFB2002B3ACE /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
