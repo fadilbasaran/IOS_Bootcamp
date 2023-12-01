@@ -20,16 +20,34 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelSlider: UILabel!
     
     @IBOutlet weak var slider: UISlider!
+    
+    @IBOutlet weak var labelStepper: UILabel!
+    
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
+    @IBOutlet weak var stepper: UIStepper!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         labelSlider.text = String(Int(slider.value))
+        labelStepper.text = String(Int(stepper.value))
+        indicator.isHidden = true
   
         
     }
     
+    @IBAction func buttonDur(_ sender: Any) {
+        indicator.isHidden = true
+        indicator.stopAnimating()
+    }
     
-
+    @IBAction func buttonBasla(_ sender: Any) {
+        indicator.isHidden = false
+        indicator.startAnimating()
+        
+    }
+    
+    @IBAction func stepperDegisim(_ sender: UIStepper) {
+        labelStepper.text = String(Int(sender.value))
+    }
     @IBAction func sliderDegisim(_ sender: UISlider) {
         labelSlider.text = String(Int(sender.value))
     }
@@ -59,6 +77,7 @@ class ViewController: UIViewController {
         let secilenKategori = segmetedControl.titleForSegment(at: secilenIndeks)
         print("Secilen durum Goster : \(secilenKategori!)")
         print("Slider durum: \(slider.value)")
+        print("Stepper durum: \(stepper.value)")
         
     
         
