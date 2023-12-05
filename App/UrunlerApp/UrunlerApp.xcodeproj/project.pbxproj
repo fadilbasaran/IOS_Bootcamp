@@ -56,15 +56,39 @@
 		8B1A2CF02B1EA313006E2AE8 /* UrunlerApp */ = {
 			isa = PBXGroup;
 			children = (
+				8B1A2D072B1EA3DE006E2AE8 /* Controllers */,
+				8B1A2D062B1EA3D7006E2AE8 /* Views */,
+				8B1A2D052B1EA32D006E2AE8 /* Supporting Files */,
+			);
+			path = UrunlerApp;
+			sourceTree = "<group>";
+		};
+		8B1A2D052B1EA32D006E2AE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				8B1A2CF12B1EA313006E2AE8 /* AppDelegate.swift */,
 				8B1A2CF32B1EA313006E2AE8 /* SceneDelegate.swift */,
-				8B1A2CF52B1EA313006E2AE8 /* ViewController.swift */,
-				8B1A2CF72B1EA313006E2AE8 /* Main.storyboard */,
 				8B1A2CFA2B1EA314006E2AE8 /* Assets.xcassets */,
 				8B1A2CFC2B1EA314006E2AE8 /* LaunchScreen.storyboard */,
 				8B1A2CFF2B1EA314006E2AE8 /* Info.plist */,
 			);
-			path = UrunlerApp;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B1A2D062B1EA3D7006E2AE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B1A2CF72B1EA313006E2AE8 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B1A2D072B1EA3DE006E2AE8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B1A2CF52B1EA313006E2AE8 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UrunlerApp/Info.plist;
+				INFOPLIST_FILE = "UrunlerApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UrunlerApp/Info.plist;
+				INFOPLIST_FILE = "UrunlerApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
